@@ -483,7 +483,7 @@ section#btn {
   line-height: 1.2;
   /*font-size:85px;*/
   /*margin-top: 126px;*/
-  padding-bottom: 4.54%;
+  padding-bottom: 3.5%;
   display: inline-block;
   width: 100%;
   margin-block-start: 0;
@@ -538,18 +538,18 @@ font-size: 4rem;
   width: 100%;
   font-weight: 400;
   font-size: 2rem;
-      margin-top: 10%;
+  margin-top: 10%;
 }
 @media screen and (max-width: 768px){
 .recruit-first {
     text-align: left;
     font-weight: 400;
-    margin-block-start: 5%;
+    margin-block-start: 2%;
     margin-block-end: 0;
-    font-size: 2.3rem;
+    font-size: 2rem;
 }
 .flex-bottom {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
 }
 .recruit-second {
@@ -557,16 +557,15 @@ font-size: 4rem;
     margin-top: 14%;
     margin-top: 15px;
     font-size: 1.2rem;
-    font-size: 1.2rem;
 }
 @media screen and (max-width: 768px){
 .recruit-second {
   margin-left: 0;
   text-align: left;
-  margin-top: 3%;
+  margin-top: 1%;
   line-height: 1.7;
   margin-bottom: 0;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
 }
 .recruit-second2 {
@@ -825,7 +824,7 @@ font-size: 4rem;
     margin-top: 0;
   }
   .flex-bottom {
-    margin-top: 20%;
+    margin-top: 10%;
   }
 }
 /* 例：br.sp_brはタブレット以上のサイズでは非表示にする */
