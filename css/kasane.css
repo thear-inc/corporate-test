@@ -1,0 +1,293 @@
+/*  SEC07 MESSAGE  big
+------------------------------------------------------------*/
+#sec07 {
+  
+  padding-bottom: 60px;
+}
+
+#sec17 {
+  
+  padding-bottom: 60px;
+}
+
+#sec27 {
+  
+  padding-bottom: 60px;
+}
+
+.lp-contents-01 {
+  margin: 100px auto 0;
+  width: 1180px;
+}
+.lp-contents-01-img {
+  margin-left: -100px;
+}
+.lp-contents-01-title {
+  margin: 440px 0 0;
+}
+.lp-contents-01-title + p {
+  margin: 45px 0 0;
+  line-height: 1.9;
+  font-size: 15px;
+}
+.lp-contents-01-title + p + p {
+  margin: 22px 0 0;
+  line-height: 1.9;
+  font-size: 15px;
+}
+.lp-tit-message {
+  position: relative;
+  margin: 135px 0 0;
+  width: 100%;
+  height: 151px;
+}
+.lp-txt-message-num {
+  position: absolute;
+  top: 0;
+}
+.lp-tit-message img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.lp-img-message {
+  position: absolute;
+  top: 0;
+}
+.lp-contents-message-01 {
+  position: relative;
+  margin: -10px auto 0;
+  padding: 380px 0 0;
+  width: 1180px;
+}
+.lp-contents-message-01 .lp-txt-message-num {
+  right: 30px;
+}
+.lp-contents-message-01 .lp-img-message {
+  left: 0;
+}
+.lp-contents-message-01 .lp-txt-message {
+  position: relative;
+  margin: 0 0 0 auto;
+  padding: 38px 0 0 80px;
+  width: 540px;
+  z-index: 2;
+  background: #fff;
+}
+.lp-contents-message-02 {
+  position: relative;
+  margin: 100px auto 0;
+  padding: 375px 0 0;
+  width: 1180px;
+}
+.lp-contents-message-02 .lp-txt-message-num {
+  left: 30px;
+}
+.lp-contents-message-02 .lp-img-message {
+  right: 0;
+}
+.lp-contents-message-02 .lp-txt-message {
+  position: relative;
+  margin: 0;
+  padding: 38px 80px 0 0;
+  width: 540px;
+  z-index: 2;
+  background: #fff;
+}
+.lp-txt-message-01 {
+  margin: 0;
+  line-height: 1.8;
+  font-size: 15px;
+  color: #BD3244;
+	font-weight: bold;
+}
+.lp-txt-message-02 {
+  margin: 0 0 0;
+  font-size: 24px;
+color: #BD3244;
+	font-weight: bold;
+}
+.lp-txt-message-03 {
+  margin: 22px 0 0;
+  line-height: 1.8;
+  font-size: 16px;
+}
+.lp-tit-message {
+  position: relative;
+  margin: 135px 0 0;
+  width: 100%;
+  height: 151px;
+}
+.lp-txt-message-num {
+  position: absolute;
+  top: 0;
+}
+.lp-tit-message img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 983px;
+}
+.lp-img-message {
+  position: absolute;
+  top: 0;
+}
+.lp-contents-message-01 {
+  position: relative;
+  margin: -10px auto 0;
+  padding: 380px 0 0;
+  width: 1180px;
+}
+
+
+
+@media (max-width: 767px) { /* スマートフォン */
+  .lp-tit-message img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 87vw;
+  }
+  contents-message-01 .lp-txt-message-num {
+    top: 30px;
+    right: 7px;
+  }
+  contents-message-01 .lp-img-message {
+    width: 85vw;
+  }
+  contents-message-01 .lp-txt-message {
+    position: relative;
+    margin: 0 20px;
+  /*   padding: 30px 10px; */
+    width: calc(100% - 40px);
+    box-sizing: border-box;
+  }
+  .lp-contents-message-01 .lp-img-message {
+    width: 85vw;
+  }
+  .lp-txt-message-01 {
+    font-size: 13px;
+  }
+  .lp-txt-message-02 {
+    margin: 2px 0 0;
+  }
+  .lp-txt-message-03 {
+    margin: 20px 0 0;
+    font-size: 15px;
+  }
+  .fluid-image {
+    width: 100%;
+    height: auto;
+  }
+  .lp-contents-01 {
+    margin: 55px auto 0;
+    padding: 0 20px;
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+  }
+  .lp-contents-01-img {
+    width: 100%;
+    margin-left: -55px;
+  }
+  .lp-contents-01-img img {
+    width: 100vw;
+    max-width: 1000%;
+  }
+  .lp-contents-01-title {
+    margin: 17px 0 0;
+  }
+  .lp-contents-01-title + p {
+    margin: 12px 0 0;
+    font-size: 16px;
+  }
+  .lp-contents-01-title + p + p {
+    margin: 28px 0 0;
+    font-size: 16px;
+  }
+  .lp-tit-message {
+    position: relative;
+    margin: 70px 0 0;
+    width: 100%;
+    height: auto;
+  }
+  .lp-tit-message img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 87vw;
+  }
+  .lp-img-message {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .lp-contents-message-01 {
+    position: relative;
+    margin: -5px auto 0;
+    padding: 32vw 0 0;
+    width: 100%;
+  }
+  .lp-contents-message-01 .lp-txt-message-num {
+    top: 0px;
+    right: 7px;
+  }
+  .lp-contents-message-01 .lp-txt-message-num img {
+    width: 50%;
+	margin: 0;
+  }
+  .lp-contents-message-01 .lp-txt-message {
+    position: relative;
+    margin: 0 20px;
+    padding: 30px 40px; 
+    width: calc(100% - 40px);
+    box-sizing: border-box;
+  }
+  .lp-contents-message-01 .lp-img-message {
+    width: 85vw;
+  }
+  .lp-contents-message-02 {
+    position: relative;
+    margin: 50px auto 0;
+    padding: 135px 0 0;
+    width: 100%;
+  }
+  .lp-contents-message-02 .lp-txt-message {
+    position: relative;
+    margin: 0 20px;
+    padding: 30px 10px 0;
+    width: calc(100% - 40px);
+    box-sizing: border-box;
+  }
+  .lp-contents-message-02 .lp-txt-message-num {
+    top: 30px;
+    left: 20px;
+  }
+  .lp-contents-message-02 .lp-txt-message-num img {
+    width: 50%;
+  }
+  .lp-contents-message-02 .lp-img-message {
+    width: 85vw;
+    left: auto;
+  }
+  .lp-txt-message-01 {
+    font-size: 13px;
+  }
+  .lp-txt-message-02 {
+    margin: 2px 0 0;
+  }
+  .lp-txt-message-03 {
+    margin: 20px 0 0;
+    font-size: 15px;
+  }
+}
+/* for RWD */
+.fluid-image {
+  max-width: 100%;
+  height: auto;
+
+}
+.full-image {
+  width: 100%;
+  height: auto;
+}
