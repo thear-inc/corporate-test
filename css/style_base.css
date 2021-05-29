@@ -1121,7 +1121,7 @@ textarea {
   .sns-flex {
     display: flex;
     justify-content: center;
-    gap: 10%;
+    gap: 20%;
     position: absolute;
     top: 0;
     bottom: 0;
