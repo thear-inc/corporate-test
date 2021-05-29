@@ -404,7 +404,7 @@ section#btn {
     color: white;
     font-family: aw-conqueror-didot, serif;
     font-weight: 400;
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .lower-text {
     top: 70%;
@@ -694,7 +694,7 @@ font-size: 4rem;
       font-weight: 350;
     }
     .flex-bottom {
-      font-size: 1.7rem;
+      font-size: 1.3rem;
     }
   .projects-first,
   .first,
@@ -708,7 +708,7 @@ font-size: 4rem;
       margin-top: 0;
       line-height: 1.7;
       margin-bottom: 10%;
-      font-size: 1.7rem;
+      font-size: 1.3rem;
   }
   .recruit-second {
     margin-left: 0;
@@ -716,12 +716,11 @@ font-size: 4rem;
     margin-top: 3%;
     line-height: 1.7;
     margin-bottom: 0;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
   .about-second {
     margin-left: 0%;
     margin-top: 3%;
-    font-size: 1.2rem;
     font-weight: 370;
     font-size: 1.3rem;
     line-height: 1.5;
@@ -731,7 +730,6 @@ font-size: 4rem;
     margin-top: 7px;
     margin-bottom: 15%;
     margin-left: 0%;
-    font-size: 1.2rem;
     font-weight: 350;
     font-size: 1.3rem;
     line-height: 1.5;
@@ -797,13 +795,13 @@ font-size: 4rem;
   height: 634px;
 }
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 768px){
   .flex-box {
     display: flex;
     flex-flow: column;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
 .flex-box {
   width: 100%;
   height: auto;
@@ -851,7 +849,7 @@ font-size: 4rem;
 }
 @media screen and (min-width: 1600px){
   .service-second {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 }
 @media screen and (min-width: 769px) and (max-width: 1600px){
@@ -886,7 +884,7 @@ margin: 0 auto;
   margin-top: 20%;
 }
 }
-@media screen and (min-width: 1600px){
+@media screen and (min-width: 1601px){
 .projects-flex {
   display: flex;
   gap: 84px;
@@ -2088,7 +2086,7 @@ div.global-nav {
   font-weight: 400;
   font-style: normal;
 }
-@media screen and (min-width: 1800px){
+@media screen and (min-width: 1601px){
   .small-box {
   height: 602px;
   display: flex;
