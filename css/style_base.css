@@ -393,9 +393,10 @@ section#btn {
   left: 5%;
 }
 .lower-text {
-  top: 70%;
+  top: 60%;
   left: 5%;
 }
+
 @media screen and (max-width: 768px) {
   .upper-text,
   .lower-text {
@@ -404,6 +405,9 @@ section#btn {
     font-family: aw-conqueror-didot, serif;
     font-weight: 400;
     font-size: 4rem;
+  }
+  .lower-text {
+    top: 70%;
   }
   video {
     height: 100vh;
@@ -421,6 +425,11 @@ section#btn {
     background-color: black;
   }
 }
+@media screen and (max-width: 480px) {
+  .lower-text {
+    top: 60%;
+  }
+}
 @media screen and (min-width: 1801px) {
   .upper-text,
   .lower-text {
@@ -435,7 +444,7 @@ section#btn {
     left: 200px;
   }
   .lower-text {
-    top: 70%;
+    top: 60%;
     left: 200px;
   }
 }
