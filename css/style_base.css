@@ -425,10 +425,6 @@ section#btn {
     background-color: black;
   }
 }
-@media screen and (max-width: 480px) {
-  .lower-text {
-    top: 60%;
-  }
 }
 @media screen and (min-width: 1801px) {
   .upper-text,
