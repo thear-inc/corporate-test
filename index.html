@@ -38,12 +38,20 @@
   <p id="g-nav-top" class="upper-text"><a href="#">Thear Inc.</a></p>
   <div id="g-nav-list"><!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
     <ul>
-    <li class="list-menu"><a href="#">Projects</a></li>  
-    <li class="list-menu"><a href="#">About</a></li>  
-    <li class="list-menu"><a href="#">Service</a></li> 
-    <li class="list-menu"><a href="#">Recruits</a></li> 
-    <li class="list-menu"><a href="#">Contact</a></li>  
+    <li class="list-menu"><a href="#Projects">Projects</a></li>  
+    <li class="list-menu"><a href="#About">About</a></li>  
+    <li class="list-menu"><a href="#Service">Service</a></li> 
+    <li class="list-menu"><a href="#Recruit">Recruit</a></li> 
+    <li class="list-menu"><a href="#Contact">Contact</a></li>  
     </ul>
+  </div>
+
+  <div id="g-nav-footer">
+    <a href="https://www.instagram.com/seenowtokyo/" target="_blank"><img class="sns" src="images/insta.png" alt="instagram" width="57" height="59"></a>
+    <a href="https://www.youtube.com/channel/UC7G2dETvBkkvbywUOsolLVA" target="_blank"><img class="sns2" src="images/youtube.png" alt="youtube" width="57" height="59"></a>
+    <a href="https://www.pinterest.jp/seenowtokyo/" target="_blank"><img class="sns3" src="images/pinterest.png" alt="" width="57" height="59"></a>
+
+    <p class="copyright">THEAR INC. All rights reserved 2021</p>
   </div>
 </nav>
 
@@ -60,7 +68,7 @@
 <body>
 <section id="sec03">
   <div class="inner first-inner">
-		<p class="projects" >Projects</p>
+		<p class="projects" id="Projects">Projects</p>
     <div class="grid">
 
       <a href="https://seenowtokyo.com/?rel=hp" target="_blank" id="project1">
@@ -132,7 +140,7 @@
 	<div class="inner">
     <div class="flex-box liner">
     <div class="left-side">
-		<p class="top-title projects about-title">About</p>
+		<p class="top-title projects about-title" id="About">About</p>
     <p class="below-about">"AMPLIFY THEIR VOICES"</p>
     <div class="sp-about-img"><img class="about" src="images/about.jpg" alt="" width="689px" height="798px"></div>
     <div class="first-box">
@@ -154,7 +162,7 @@
 
 <section id="sec03">
 	<div class="inner">
-		<p class="projects">Service</p>
+		<p class="projects" id="Service">Service</p>
 		<div class="projects-flex">
 			<div class="item big-box">
 				<img src="images/survice(big).jpg">
@@ -188,7 +196,7 @@
 
 	<section id="sec03">
 		<div class="inner">
-			<p class="projects">Recruit</p>
+			<p class="projects" id="Recruit">Recruit</p>
       <div class="flex-box liner">
       <div class="l-box">
 			<div class="box1">
@@ -233,7 +241,7 @@
 
       <section id="sec03">
     		<div class="inner form-inner">
-    			<p class="projects">Contact</p>
+    			<p class="projects" id="Contact">Contact</p>
           <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSfYGEpYSsaxAkzaib_txplIwJoB3GvCoEVm-7sx3TuqupID4g/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
          <div class="contact-form">
            <div class="contact-flex"><label for="entry.826626217">Name*</label><input type="text" name="entry.826626217" required=""></div>
