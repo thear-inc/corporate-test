@@ -443,6 +443,7 @@ section#btn {
     top: 60%;
     left: 200px;
   }
+
 }
 
 @media screen and (min-width: 1801px){
@@ -1277,7 +1278,7 @@ a {
   color: #000;
 }
 a:hover {
-  color: #ffffff
+  color: #ffffff;
 }
 @media and screen and (min-width:1800px){
   .same {
@@ -2025,7 +2026,7 @@ video {
 }
 
 /*-------------------------------------------*/
-/*------サイドバー記述------*/
+/*------ナビゲーション記述------*/
 /*-------------------------------------------*/
 
 
@@ -2113,10 +2114,11 @@ div.global-nav {
   top:0;
   width:100%;
     height: 100vh;/*ナビの高さ*/
-  background:#f6f6f6;
+  background: #ebebeb;
     /*動き*/
   transition: all 0.3s;
 }
+
 
 /*アクティブクラスがついたら透過なしにして最前面へ*/
 #g-nav.panelactive{
@@ -2152,12 +2154,15 @@ div.global-nav {
     position: absolute;
     z-index: 999;
     top:50%;
-    left:50%;
+    left: 120px;
     transform: translate(-50%,-50%);
 }
 
+
+
+
 #g-nav.panelactive ul {
-    display: block;
+    display: inline-block;
 }
 
 /*リストのレイアウト設定*/
@@ -2224,3 +2229,43 @@ div.global-nav {
   width: 35%;
   background-color: #000;
 }
+
+
+
+
+
+/*========= レイアウトのためのCSS ===============*/
+
+
+.list-menu a{
+  hover: pointer;
+  text-align: left;
+}
+
+
+#g-nav-list{
+  margin-top: 14vh;
+}
+
+
+
+#g-nav-footer{
+  margin-top: 60vh;
+  padding-top: 40%;
+  gap: 20%;
+}
+
+
+#g-nav-footer a{
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+
+#g-nav-footer .copyright{
+  padding-top: 20%;
+}
+
+
+
+
