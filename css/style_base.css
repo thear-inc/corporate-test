@@ -2073,8 +2073,8 @@ div.global-nav {
   text-decoration: none;
   line-height: 1.2;
   /*font-size:85px;*/
-  /*margin-top: 126px;*/
-  padding-bottom: 4.54%;
+  /*margin-top: 126px;
+  padding-bottom: 4.54%;*/
   display: inline-block;
   width: 100%;
   margin-block-start: 0;
@@ -2113,12 +2113,21 @@ div.global-nav {
     /*ナビの位置と形状*/
   top:0;
   width:100%;
-    height: 100vh;/*ナビの高さ*/
+  min-height: 100vh;/*ナビの高さ*/
   background: #ebebeb;
     /*動き*/
   transition: all 0.3s;
 }
 
+  /*sticky footer*/
+#g-nav{
+  display: flex;
+  flex-direction: column;
+}
+
+.g-nav-footer{
+  margin-bottom: auto;
+}
 
 /*アクティブクラスがついたら透過なしにして最前面へ*/
 #g-nav.panelactive{
@@ -2154,7 +2163,7 @@ div.global-nav {
     position: absolute;
     z-index: 999;
     top:50%;
-    left: 120px;
+    left: 50px;
     transform: translate(-50%,-50%);
 }
 
@@ -2163,6 +2172,7 @@ div.global-nav {
 
 #g-nav.panelactive ul {
     display: inline-block;
+    margin: 0 5.86%;
 }
 
 /*リストのレイアウト設定*/
@@ -2173,10 +2183,11 @@ div.global-nav {
 
 #g-nav li a{
   text-decoration: none;
-  padding:10px;
   display: block;
+  margin-top: 16px;
+  /*==padding:10px;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.1em;=*/
 }
 
 /*========= ボタンのためのCSS ===============*/
@@ -2244,28 +2255,35 @@ div.global-nav {
 
 
 #g-nav-list{
-  margin-top: 14vh;
+  margin-top: 10vh;
 }
 
 
 
-#g-nav-footer{
-  margin-top: 50vh;
-  padding-top: 40%;
+.g-nav-footer{
+  margin-top: 60vh;
+  padding-top: 50%;
   gap: 20%;
 }
 
 
-#g-nav-footer a{
-  padding-right: 5px;
-  padding-left: 5px;
+.g-nav-footer a{
+  padding: 5px;
 }
 
 
-#g-nav-footer .copyright{
-  padding-top: 20%;
-}
-
-
-
-
+.g-nav-footer .sns-flex {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 120px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+  }
