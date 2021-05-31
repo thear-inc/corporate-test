@@ -1284,6 +1284,7 @@ a:hover {
   .same {
     margin: 31px 0 31px 15px;
   }
+
 }
 }
 .form-inner {
@@ -2119,15 +2120,105 @@ div.global-nav {
   transition: all 0.3s;
 }
 
+
+@media only screen and (max-width: 640px) {
   /*sticky footer*/
 #g-nav{
   display: flex;
   flex-direction: column;
 }
+.g-nav-footer{
+  margin-top: 56vh;
+}
+
+.g-nav-footer .sns-flex{
+  text-align: none;
+}
+
+#g-nav.panelactive ul {
+    display: inline-block;
+    margin-left: 0 5.86%;
+}
+
+.list-menu a{
+  text-align: left;
+  margin-top: 20px;
+}
+
+.g-nav-footer .copyright{
+
+}
+
+}
+
+
+
+@media only screen and (min-width: 641px) {
+  /*sticky footer*/
+#g-nav{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.upper-text {
+  z-index: 900;
+}
+
+#nav-flex {
+  display: row;
+  position: relative;
+  min-height: 100vh;
+}
+
+#g-nav.panelactive #g-nav-list {
+  width: 35%;
+  height: 100vh;
+  margin-top: 0vh;
+  text-align: right;
+  position: absolute;
+  right: 0;
+}
+
+#g-nav.panelactive .g-nav-footer{
+  height: 100vh;
+  padding-top: 0vh;
+}
+
+
+#g-nav.panelactive .g-nav-footer .sns-flex{
+  justify-content: center;
+}
+
+
+#g-nav.panelactive ul {
+  text-align: right;
+}
+
+#g-nav.panelactive .list-menu a{
+  text-align: right;
+  padding-top: 23px;
+  padding-left: 65%;
+  text-align: right;
+}
+
+#g-nav.panelactive .upper-text a: hover .upper-text{
+  color: #fff;
+}
+
+#g-nav.panelactive #g-nav-list .list-menu a: hover .list-menu{
+  color: #fff;
+}
 
 .g-nav-footer{
-  margin-bottom: auto;
+  width: 63%;
+  height: 100vh;
+  margin-bottom: none;
 }
+
+}
+
+
 
 /*アクティブクラスがついたら透過なしにして最前面へ*/
 #g-nav.panelactive{
@@ -2140,9 +2231,17 @@ div.global-nav {
     /*ナビの数が増えた場合縦スクロール*/
     position: fixed;
     z-index: 999; 
-    width: 100%;
+
     overflow: auto;
     -webkit-overflow-scrolling: touch;
+}
+
+@media only screen and (max-width: 640px) {
+  #g-nav.panelactive #g-nav-list{
+  width: 100%;
+  }
+}
+
 }
 
 
@@ -2168,6 +2267,20 @@ div.global-nav {
 }
 
 
+/*PCナビゲーションの位置指定*/
+@media only screen and (min-width: 641px) {
+
+#g-nav.panelactive #g-nav{
+  position: relative;
+}
+
+#g-nav.panelactive ul {
+    position: absolute;
+    right: 50px;
+    margin-right: 0 5.86%;
+  }
+
+}
 
 
 #g-nav.panelactive ul {
@@ -2184,7 +2297,7 @@ div.global-nav {
 #g-nav li a{
   text-decoration: none;
   display: block;
-  margin-top: 16px;
+
   /*==padding:10px;
   text-transform: uppercase;
   letter-spacing: 0.1em;=*/
@@ -2212,6 +2325,8 @@ div.global-nav {
   background-color: #fff;
     width: 45%;
   }
+
+
 
 .openbtn2 span:nth-of-type(1){
   top: 22px;
@@ -2250,7 +2365,6 @@ div.global-nav {
 
 .list-menu a{
   hover: pointer;
-  text-align: left;
 }
 
 
@@ -2261,8 +2375,7 @@ div.global-nav {
 
 
 .g-nav-footer{
-  margin-top: 60vh;
-  padding-top: 50%;
+  padding-top: 55%;
   gap: 20%;
 }
 
@@ -2274,7 +2387,7 @@ div.global-nav {
 
 .g-nav-footer .sns-flex {
     display: flex;
-    justify-content: center;
+
     gap: 10%;
     position: absolute;
     top: 0;
