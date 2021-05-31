@@ -22,6 +22,9 @@
     h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
   })(document);
 </script>
+
+      <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/de4677778d.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -46,12 +49,13 @@
     </ul>
   </div>
 
-  <div id="g-nav-footer">
-    <a href="https://www.instagram.com/seenowtokyo/" target="_blank"><img class="sns" src="images/insta.png" alt="instagram" width="57" height="59"></a>
-    <a href="https://www.youtube.com/channel/UC7G2dETvBkkvbywUOsolLVA" target="_blank"><img class="sns2" src="images/youtube.png" alt="youtube" width="57" height="59"></a>
-    <a href="https://www.pinterest.jp/seenowtokyo/" target="_blank"><img class="sns3" src="images/pinterest.png" alt="" width="57" height="59"></a>
-
-    <p class="copyright">THEAR INC. All rights reserved 2021</p>
+  <div id="topfooter" class="g-nav-footer">
+  <div class="sns-flex">
+  <a class="icon" href="https://www.instagram.com/seenowtokyo/" target="_blank"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+  <a class="icon" href="https://www.youtube.com/channel/UC7G2dETvBkkvbywUOsolLVA" target="_blank"><i class="fa fa-youtube-play fa-lg" aria-hidden="true"></i></a>
+  <a class="icon" href="https://www.pinterest.jp/seenowtokyo/" target="_blank"><i class="fa fa-pinterest fa-lg" aria-hidden="true"></i></a>
+  </div><!--sns-flex-->
+<p class="copyright">THEAR INC. All rights reserved 2021</p>
   </div>
 </nav>
 
