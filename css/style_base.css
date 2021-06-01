@@ -814,6 +814,11 @@ font-size: 4rem;
     flex-flow: column;
   }
 }
+.below-title,
+.recruit-title  {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
 @media screen and (min-width: 769px) {
 .flex-box {
   width: 100%;
@@ -827,7 +832,7 @@ font-size: 4rem;
   width: 100%;
 }
 .r-box {
-  margin-top: 34%;
+  margin-top: 15%;
   margin-right: 10%;
   margin-left: 10%;
 }
@@ -1152,7 +1157,7 @@ textarea {
 }
 .copyright {
   text-align: center;
-  top: 80%;
+  top: 70%;
   position: absolute;
   width:100%;
 }
@@ -1239,9 +1244,14 @@ section h3 {
 .contact-form {
   width: 67%;
   margin: 0 auto;
-  padding-bottom: 0px;
+  padding-bottom: 80px;
   max-width: 1600px;
 }
+}
+@media screen and (max-width: 768px){
+  .contact-form {
+    padding-bottom: 50px;
+  }
 }
 /*.about-second {
   margin-left: 0%;
