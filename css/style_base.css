@@ -1127,12 +1127,12 @@ textarea {
   }
   .sns,
   .sns3 {
-    width: 31px;
-    height: 31px;
+    width: 15px;
+    height: 15px;
   }
   .sns2 {
-    width: 40px;
-    height: 29px;
+    width: 19px;
+    height: 14.2px;
   }
   .sns-flex {
     display: flex;
