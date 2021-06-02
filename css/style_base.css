@@ -2346,8 +2346,8 @@ div.global-nav {
 .openbtn2{
   position:fixed;
     z-index: 9999;/*ボタンを最前面に*/
-  top:10px;
-  right: 10px;
+  top: 6.8%;
+  right: 5%;
   cursor: pointer;
     width: 50px;
     height:50px;
