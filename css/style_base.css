@@ -1079,6 +1079,8 @@ textarea {
   border-color: #EAEAEA;
   height: 100px;
   width: 90%;
+	-webkit-appearance: none;
+border-radius: 0;
 }
 }
 /*topfooter////////////////////////////
