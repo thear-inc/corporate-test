@@ -1062,6 +1062,8 @@ input[type="submit"] {
   height: auto;
   margin-bottom: 15px;
   min-height: 40px;
+  -webkit-appearance: none;
+  border-radius: 0;
 }
 textarea {
   font-size: 1.6rem;
