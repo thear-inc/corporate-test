@@ -999,6 +999,8 @@ margin: 0 auto;
     border-color: #EAEAEA;
     height: 150px;
     width: 90%;
+ -webkit-appearance: none;
+  border-radius: 0;
   }
 }
 @media screen and (max-width: 768px){
@@ -1046,12 +1048,16 @@ input[type="text"] {
   border-style: none;
   border-color: #EAEAEA;
   height: 3rem;
+-webkit-appearance: none;
+  border-radius: 0;
 }
 input[type="email"] {
   width: 70%;
   border-style: none;
   border-color: #EAEAEA;
   height: 3rem;
+-webkit-appearance: none;
+  border-radius: 0;
 }
 input[type="submit"] {
   color: white;
